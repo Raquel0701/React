@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#bloque {
+  height: 50px;
+  background-color: black;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#bloque:hover {
+  background-color: brown;
+}
+
+/*
+para los logos
+*/
+.logoRedes {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+.texto {
+  margin: 10px 350px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.flexBox {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+
+  justify-content: center;
+  background-color: chartreuse;
+  height: 500px;
+}
+
+.estiloSec1 {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+
+  justify-content: center;
+}
+.flexBoxInicio {
+  display: flex;
+  background-color: #1d1d1f;
+  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+
+  justify-content: center;
+}
+/* className */
+
+.Division {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 1%;
+  width: fit-content;
+}
+.iconos {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 1%;
+  width: 100%;
+}
+.flexBoxFin {
+  display: flex;
+  background-color: #f2f2f2;
+  color: black;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 30px;
+  justify-content: center;
+}
+
+/* CLASS */
+.Menu {
+  padding: 5px;
+  margin: 1%;
+}
+.Informacion:hover {
+  text-decoration: underline;
+}
+.Informacion {
+  color: #2687e5;
+  font-size: 20px;
+}
+
+.img1 {
+  height: 50%;
+  width: 40%;
+  align-content: center;
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+  align-content: center;
+}
+.Panel1 {
+  background-color: black;
+  height: 500px;
+  width: 50%;
+}
+.Panel2 {
+  background-color: #faf9f9;
+  height: 500px;
+  width: 50%;
+}
+
+.Panel3 {
+  background-color: #faf9f9;
+  height: 500px;
+  width: 50%;
+}
+.parrafo {
+  margin: 5px 150px;
+  text-align: justify;
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: #1d1d1f;
+}
+.parrafo2 {
+  margin: 5px 50px;
+  text-align: justify;
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: #1d1d1f;
+}
+
